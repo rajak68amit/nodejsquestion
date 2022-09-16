@@ -5,3 +5,5 @@ for(i=0;i<10;i++){
         console.log(a[i])
     },1000)
 }
+
+
