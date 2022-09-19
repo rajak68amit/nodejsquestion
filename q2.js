@@ -28,7 +28,6 @@ console.log(false ==0) // true */
 /* var d = new Date()
 var d1 = new Date()
 console.log(d.getTime() == d1.getTime()); */
-
 /////////////////////  apply ///////////////////////////////////////////
 
 function d(m){
@@ -55,14 +54,15 @@ function sayHello()
 { 
     return "hello  " + this.name 
 }
-
 var obj = { name: "sandy" } 
+
 //console.log( sayHello.call(obj))
 
 function bikeDetails() 
 { 
     console.log(this)
 } 
+
 var per1 = bikeDetails.bind({ name: 'rahul', 'gahr': "mishrawaliya" });
 per1();
 
